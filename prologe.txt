@@ -1,0 +1,1151 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/s0169480/ontologies/2024/10/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/s0169480/ontologies/2024/10/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/s0169480/ontologies/2024/10/untitled-ontology-12#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-12" IRI="http://www.semanticweb.org/s0169480/ontologies/2024/10/untitled-ontology-12#"/>
+    <Declaration>
+        <Class IRI="#Bestiary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characters_List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_NPC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Members"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tasks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_GM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_author"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_campaign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_character"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Characteristics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Charisma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Constitution"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dexterity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#First_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Last_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Strength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Wisdom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#104"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#109"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#110"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#301"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#302"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#303"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#305"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#401"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#402"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#403"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#404"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#405"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#406"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#501"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#502"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#503"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#504"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#505"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#601"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#602"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#603"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#604"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#605"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#606"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#701"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#702"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#703"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#704"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#705"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#706"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#707"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#708"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#104"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#109"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Members"/>
+        <NamedIndividual IRI="#110"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Campaign"/>
+        <NamedIndividual IRI="#205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tasks"/>
+        <NamedIndividual IRI="#301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tasks"/>
+        <NamedIndividual IRI="#302"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tasks"/>
+        <NamedIndividual IRI="#303"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tasks"/>
+        <NamedIndividual IRI="#304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tasks"/>
+        <NamedIndividual IRI="#305"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#401"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#403"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#404"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#405"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objects"/>
+        <NamedIndividual IRI="#406"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_NPC"/>
+        <NamedIndividual IRI="#501"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_NPC"/>
+        <NamedIndividual IRI="#502"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_NPC"/>
+        <NamedIndividual IRI="#503"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_NPC"/>
+        <NamedIndividual IRI="#504"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_NPC"/>
+        <NamedIndividual IRI="#505"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#601"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#602"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#603"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#604"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#605"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characters_List"/>
+        <NamedIndividual IRI="#606"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#701"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#702"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#703"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#704"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#705"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#706"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#707"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bestiary"/>
+        <NamedIndividual IRI="#708"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_campaign"/>
+        <NamedIndividual IRI="#101"/>
+        <NamedIndividual IRI="#204"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_campaign"/>
+        <NamedIndividual IRI="#101"/>
+        <NamedIndividual IRI="#205"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#101"/>
+        <NamedIndividual IRI="#605"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_campaign"/>
+        <NamedIndividual IRI="#102"/>
+        <NamedIndividual IRI="#201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#102"/>
+        <NamedIndividual IRI="#602"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#103"/>
+        <NamedIndividual IRI="#604"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#104"/>
+        <NamedIndividual IRI="#603"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#104"/>
+        <NamedIndividual IRI="#606"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_campaign"/>
+        <NamedIndividual IRI="#105"/>
+        <NamedIndividual IRI="#202"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_campaign"/>
+        <NamedIndividual IRI="#105"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#105"/>
+        <NamedIndividual IRI="#601"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_GM"/>
+        <NamedIndividual IRI="#201"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_GM"/>
+        <NamedIndividual IRI="#202"/>
+        <NamedIndividual IRI="#105"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#202"/>
+        <NamedIndividual IRI="#501"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#202"/>
+        <NamedIndividual IRI="#505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_GM"/>
+        <NamedIndividual IRI="#203"/>
+        <NamedIndividual IRI="#105"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#203"/>
+        <NamedIndividual IRI="#502"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#203"/>
+        <NamedIndividual IRI="#503"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_character"/>
+        <NamedIndividual IRI="#203"/>
+        <NamedIndividual IRI="#504"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_GM"/>
+        <NamedIndividual IRI="#204"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_GM"/>
+        <NamedIndividual IRI="#205"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#601"/>
+        <NamedIndividual IRI="#105"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#602"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#603"/>
+        <NamedIndividual IRI="#104"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#604"/>
+        <NamedIndividual IRI="#103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#605"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_author"/>
+        <NamedIndividual IRI="#606"/>
+        <NamedIndividual IRI="#104"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#101"/>
+        <Literal>Polina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#101"/>
+        <Literal>Storozheva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#101"/>
+        <Literal>Player, GM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#102"/>
+        <Literal>Artyom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#102"/>
+        <Literal>Prasol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#102"/>
+        <Literal>GM, Player</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#103"/>
+        <Literal>Victor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#103"/>
+        <Literal>Krasiviy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#103"/>
+        <Literal>Player</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#104"/>
+        <Literal>Andrew</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#104"/>
+        <Literal>Diachenko</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#104"/>
+        <Literal>GM, Player</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#105"/>
+        <Literal>Daniil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#105"/>
+        <Literal>Nekrasov</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#105"/>
+        <Literal>GM, Player</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#106"/>
+        <Literal>Yanchick</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#106"/>
+        <Literal>West</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#106"/>
+        <Literal>Player</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#107"/>
+        <Literal>Lena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#107"/>
+        <Literal>Volgina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#107"/>
+        <Literal>Viewer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#108"/>
+        <Literal>Artyom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#108"/>
+        <Literal>Andreev</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#108"/>
+        <Literal>Viewer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#109"/>
+        <Literal>Maxim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#109"/>
+        <Literal>Rusanov</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#109"/>
+        <Literal>Viewer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#First_Name"/>
+        <NamedIndividual IRI="#110"/>
+        <Literal>Leva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#110"/>
+        <Literal>Lecenko</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#110"/>
+        <Literal>Viewer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#201"/>
+        <Literal>Dark London</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#201"/>
+        <Literal>Began</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#202"/>
+        <Literal>Estate of Gnock-Gnock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#202"/>
+        <Literal>Began</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#203"/>
+        <Literal>Cult of Fear</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#203"/>
+        <Literal>Began</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#204"/>
+        <Literal>First One-Shot</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#204"/>
+        <Literal>Abandoned</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#205"/>
+        <Literal>Taxes to estate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Status"/>
+        <NamedIndividual IRI="#205"/>
+        <Literal>Ended</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#301"/>
+        <Literal>Find other players in this lost city.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#301"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Lost</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#302"/>
+        <Literal>Visit the city museum and find out what kind of noise is coming from there</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#302"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Museum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#303"/>
+        <Literal>To have time to restore the stable state of the generator before an explosion occurs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#303"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Safe generator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#304"/>
+        <Literal>Get treasures from the cave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#304"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Treasure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#305"/>
+        <Literal>Light a lighthouse to free the city from the dark fog and give a sign to the city across the bridge.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#305"/>
+        <Literal>Light the lighthouse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#401"/>
+        <Literal>Sword</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#402"/>
+        <Literal>Magic-Stick</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#403"/>
+        <Literal>Knife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#404"/>
+        <Literal>Book</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#405"/>
+        <Literal>Aid-Box</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#406"/>
+        <Literal>Suitcase</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#501"/>
+        <Literal>Rich goblin-trader</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#501"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#501"/>
+        <Literal>Gnock-Gnock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#502"/>
+        <Literal>American infantryman, combat veteran, museum employee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#502"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#502"/>
+        <Literal>Roben</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#503"/>
+        <Literal>An ordinary citizen of the city, an employee of the lighthouse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#503"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#503"/>
+        <Literal>Halter Weizenberg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#504"/>
+        <Literal>A mysterious character, prone to infection by darkness. The church worker is in stable condition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#504"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#504"/>
+        <Literal>Morgan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#505"/>
+        <Literal>The daughter of a Gnoc-Gnoc, a rich goblin, a future merchant-traveler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#505"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#505"/>
+        <Literal>Gnaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#601"/>
+        <Literal>Gunfighter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#601"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#601"/>
+        <Literal>William Trelony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#601"/>
+        <Literal>Human</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#602"/>
+        <Literal>Thief</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#602"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#602"/>
+        <Literal>Jemish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#602"/>
+        <Literal>Human</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#603"/>
+        <Literal>Mage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#603"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#603"/>
+        <Literal>Arellia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#603"/>
+        <Literal>Elf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#604"/>
+        <Literal>Bard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#604"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#604"/>
+        <Literal>Jimmy Jr.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#604"/>
+        <Literal>Human</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#605"/>
+        <Literal>Medic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#605"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#605"/>
+        <Literal>Harish Rao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#605"/>
+        <Literal>Human</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Class"/>
+        <NamedIndividual IRI="#606"/>
+        <Literal>Medic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Level"/>
+        <NamedIndividual IRI="#606"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#606"/>
+        <Literal>Julian Belie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#606"/>
+        <Literal>Human</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#701"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Shadow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#702"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Cultist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#703"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Leper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#704"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Meat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#705"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Slime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#706"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Skeleton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#707"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Dragon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#708"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">Goblin</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#have_GM"/>
+        <ObjectProperty IRI="#have_campaign"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#have_author"/>
+        <ObjectProperty IRI="#have_character"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#have_GM"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#have_author"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#have_campaign"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#have_character"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_GM"/>
+        <Class IRI="#Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_author"/>
+        <Class IRI="#Characters_List"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_campaign"/>
+        <Class IRI="#Members"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_character"/>
+        <Class IRI="#Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_character"/>
+        <Class IRI="#Members"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_GM"/>
+        <Class IRI="#Members"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_author"/>
+        <Class IRI="#Members"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_campaign"/>
+        <Class IRI="#Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_character"/>
+        <Class IRI="#Characters_List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_character"/>
+        <Class IRI="#Main_NPC"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Charisma"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Constitution"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Dexterity"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Intelligence"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Strength"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Wisdom"/>
+        <DataProperty IRI="#Characteristics"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
